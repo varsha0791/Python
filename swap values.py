@@ -7,3 +7,5 @@ b = temp;
 
 print("a: " + a)
 print("b: " + b)
+
+print('This is tested')
