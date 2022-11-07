@@ -36,11 +36,8 @@ def days_cal1(enter_value):   #defining function
 mins_cal = days_cal1(44) #stores return value
 print(mins_cal) #prints return value
 
-#user input
-enter_value=int(input("User, Enter days value\n"))  #input takes string by default so it has to be converted to integer (int)
-
-calculated_value = days_cal1(enter_value)
-print(calculated_value)
+# calculated_value = days_cal1(enter_value)
+# print(calculated_value)
 
 #if else elif multiple conditional statements
 def accept_pos_no(enter_value1):
@@ -61,12 +58,12 @@ print(type(enter_value1)) #gives result as <class str>
 
 # try except
 
-try:
-  print(x)
-except NameError:
-  print("Variable x is not defined")
-except:
-  print("Something else went wrong")
+# try:
+#   print(x)
+# except NameError:
+#   print("Variable x is not defined")
+# except:
+#   print("Something else went wrong")
 
 #The try block lets you test a block of code for errors.
 
